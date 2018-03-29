@@ -26,7 +26,7 @@ BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 include vendor/xiaomi/davinci/BoardConfigVendor.mk
 
 # ANXCamera
--include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
+# -include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
 
 # Architecture
 TARGET_ARCH := arm64
