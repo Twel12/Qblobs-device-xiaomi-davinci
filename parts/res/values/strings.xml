@@ -89,4 +89,8 @@
     <string name="popup_calibration_warning_title">Motor calibration</string>
     <string name="popup_calibration_warning_text">Unnecessary use of calibration may cause permanent damage. It is recommended to calibrate the popup camera motor only in case of it not moving properly or it being in incorrect position!</string>
 
+    <!-- Pick-up to wake gesture-->
+    <string name="wake_gesture_title">Wake up</string>
+    <string name="wake_gesture_summary">Wake up the device instead of pulsing notifications</string>
+
 </resources>
