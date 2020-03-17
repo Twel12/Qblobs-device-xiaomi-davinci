@@ -26,6 +26,7 @@
 #include <fcntl.h>
 #include <poll.h>
 #include <sys/stat.h>
+#include <hardware_legacy/power.h>
 
 #define COMMAND_NIT 10
 #define PARAM_NIT_FOD 1
@@ -121,10 +122,12 @@ Return<void> FingerprintInscreen::onFinishEnroll() {
 }
 
 Return<void> FingerprintInscreen::onPress() {
+    acquire_wake_lock(PARTIAL_WAKE_LOCK, LOG_TAG);
     return Void();
 }
 
 Return<void> FingerprintInscreen::onRelease() {
+    release_wake_lock(LOG_TAG);
     return Void();
 }
 
