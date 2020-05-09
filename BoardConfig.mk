@@ -19,9 +19,13 @@ BOARD_VENDOR := xiaomi
 DEVICE_PATH := device/xiaomi/davinci
 
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_USES_NETWORK := true
 
 # Inherit from proprietary files
 include vendor/xiaomi/davinci/BoardConfigVendor.mk
+
+# ANXCamera
+include vendor/ANXCamera/anx-board.mk
 
 # Architecture
 TARGET_ARCH := arm64
@@ -65,6 +69,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
+TARGET_USES_PREBUILT_CAMERA_SERVICE := true
 
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
