@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_davinci.mk
+    $(LOCAL_DIR)/xtended_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_davinci-user \
-    aicp_davinci-userdebug \
-    aicp_davinci-eng
+    xtended_davinci-user \
+    xtended_davinci-userdebug \
+    xtended_davinci-eng
