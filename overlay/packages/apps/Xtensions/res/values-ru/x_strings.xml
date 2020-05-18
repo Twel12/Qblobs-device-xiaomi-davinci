@@ -1114,7 +1114,9 @@
     <string name="pulse_ambient_light_duration_summary">Устанавливает продолжительность анимации окружающего освещения</string>
     <string name="pulse_ambient_light_repeat_count_title">Количество повторов подсветки</string>
     <string name="pulse_ambient_light_repeat_count_summary">Установите максимальное количество повторений. 0 для бесконечного</string>
-
+    <string name="pulse_ambient_light_layout_title">Вид подсветки боковых граней</string>
+    <string name="pulse_ambient_light_layout_solid">Сплошная</string>
+    <string name="pulse_ambient_light_layout_faded">Затухающая</string>
     <!-- Tiles animation style -->
     <string name="qs_tiles">Плитки быстрых настроек</string>
     <string name="qs_tile_animation_style_title">Стиль анимации</string>
@@ -1271,7 +1273,7 @@
     <string name="qs_settings_button_summary">Отключить значок настроек в нижнем колонтитуле</string>
 
     <!-- QS blur -->
-    <string name="blur_quicksettings">Размытие за быстрыми настройками (бета)</string>
+    <string name="blur_quicksettings">Размытие за быстрыми настройками</string>
     <string name="blur_quicksettings_subtitle">Размытие затемненного фона за быстрыми настройками</string>
     <string name="qs_blur_alpha_title">Прозрачность размытия</string>
     <string name="qs_blur_alpha_summary">Установить прозрачность размытияets the blur transparency</string>
@@ -1308,4 +1310,28 @@
     <string name="global_actions_onthego">На ходу</string>
 
     <string name="enable_oneui_summary">Оптимизировать меню настроек для использования одной рукой\nПРИМЕЧАНИЕ: необходимо будет перезапустить приложение настроек </string>
+
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Анимация pixel</string>
+    <string name="pixel_navbar_anim_summary">Изменить анимацию кнопки домой</string>
+
+    <!-- QS BG Tint -->
+    <string name="qs_bg_use_new_tint">Плитки QS с оттенком</string>
+    <string name="qs_bg_use_new_tint_summary">Использовать системный цвет для рисунка и фона(оттенок) плиток быстрых настроек</string>
+
+    <!-- QS DataUsage Toggle -->
+    <string name="qs_datausage_title">Показывать использование данных в заголовке плитки QS</string>
+    <string name="qs_datausage_subtitle">Отображает использование данных в заголовке плитки SIM, используемой в текущий момент</string>
+
+    <!-- OOS clear all button -->
+    <string name="enable_clear_all_button">Заменить текс "очистить всё" плиткой QS</string>
+    <string name="enable_clear_all_button_summary">Показывать плитку "Очистить все уведомления" в быстрых настройках вместо обычного текста</string>
+
+    <!-- Smart replies -->
+    <string name="hide_smart_replies_title">Скрыть умные ответы</string>
+    <string name="hide_smart_replies_summary">Скрыть умные ответы, чтобы сэкономить место на экране при просмотре уведомлений</string>
+
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Уведомления в стиле R</string>
+    <string name="notification_headers_summary">Показывать заголовки уведомлений в стиле R (Требуется перезагрузка системного интерфейса)</string>
 </resources>
