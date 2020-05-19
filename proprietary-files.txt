@@ -359,7 +359,6 @@ vendor/bin/hvdcp_opti
 
 # CNE
 -vendor/app/CneApp/CneApp.apk
--vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
 vendor/etc/init/cnd.rc
 vendor/lib64/libcneapiclient.so
@@ -374,7 +373,6 @@ vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so
 vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so
 vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so
 vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
-vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
