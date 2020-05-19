@@ -290,4 +290,8 @@
     <string name="gesture_navbar_handle_default">По умолчанию</string>
     <string name="gesture_navbar_handle_middle">Средняя</string>
     <string name="gesture_navbar_handle_large">Большая</string>
+
+    <!-- Ultra Power -->
+    <string name="ultra_power_save_title">Ультра энергосбережение</string>
+    <string name="ultra_power_save_summary">Когда экран отключается, устройство переключится в режим ультра энергосбережения</string>
 </resources>
