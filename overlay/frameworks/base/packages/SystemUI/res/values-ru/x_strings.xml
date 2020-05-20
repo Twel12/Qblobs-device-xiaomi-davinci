@@ -271,4 +271,12 @@
     <string name="tuner_keyguard_show_battery_bar_always_title">Всегда показывать панель батареи</string>
     <string name="tuner_keyguard_show_battery_bar_always_summary">Всегда показывать панель батареи при зарядке</string>
 
+    <!-- Alerting notification header label -->
+    <string name="notification_section_header_alerting">Уведомления</string>
+
+    <!-- Immersive tile -->
+    <string name="quick_settings_immersive_tile">Скрыть панели</string>
+    <string name="quick_settings_immersive_tile_statusbar">Скрыть статусбар</string>
+    <string name="quick_settings_immersive_tile_navbar">Скрыть панель навигации</string>
+    <string name="quick_settings_immersive_tile_full">Скрыть всё</string>
 </resources>
