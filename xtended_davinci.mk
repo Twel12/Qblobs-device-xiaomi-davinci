@@ -31,4 +31,7 @@ XTENDED_BUILD_TYPE := OFFICIAL
 # FOD animations
 EXTRA_FOD_ANIMATIONS := true
 
+# Inherit from custom vendor
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
