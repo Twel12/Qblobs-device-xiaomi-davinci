@@ -1,5 +1,4 @@
 allow platform_app sysfs_graphics:file r_file_perms;
 allow platform_app vendor_fp_prop:file { read };
 allow platform_app cgroup:file r_file_perms;
-allow platform_app default_android_hwservice:hwservice_manager { find };
 allow platform_app vendor_default_prop:file { getattr open read map };
