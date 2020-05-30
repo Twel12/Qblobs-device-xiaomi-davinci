@@ -203,9 +203,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
 
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-      ro.xtended.maintainer=SVB
 
 # Media
 PRODUCT_PACKAGES += \

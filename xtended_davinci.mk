@@ -28,6 +28,9 @@ PRODUCT_MODEL := Mi 9T
 # Official MSM-Xtended
 XTENDED_BUILD_TYPE := OFFICIAL
 
+# Maintainer
+XTENDED_MAINTAINER := SVB22
+
 # FOD animations
 EXTRA_FOD_ANIMATIONS := true
 
