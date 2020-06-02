@@ -52,9 +52,6 @@
                        android:value="com.android.settings.category.ia.sound" />
         </activity>
 
-        <service android:name=".doze.DozeService"
-                 android:permission="XiaomiDozeService">
-        </service>
 
         <service android:name=".popupcamera.PopupCameraService"
                  android:permission="PopupCameraService">
@@ -71,15 +68,6 @@
             </intent-filter>
         </service>
 
-        <activity
-            android:name=".doze.DozeSettingsActivity"
-            android:label="@string/ambient_display_title"
-            android:theme="@style/Theme.Main">
-            <intent-filter>
-                <action android:name="org.lineageos.settings.device.DOZE_SETTINGS" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
 
         <activity
             android:name=".popupcamera.PopupCameraSettingsActivity"
