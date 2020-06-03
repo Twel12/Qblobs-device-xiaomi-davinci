@@ -513,6 +513,9 @@
     <!-- Boolean indicating if current platform supports BLE peripheral mode -->
     <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
 
+    <!-- Boolean indicating if current platform supports HFP inband ringing -->
+    <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
+
     <!-- Is the device capable of hot swapping an ICC Card -->
     <bool name="config_hotswapCapable">true</bool>
 
@@ -643,10 +646,6 @@
     <!-- Specifies the maximum burn-in offset vertically. -->
     <integer name="config_burnInProtectionMaxVerticalOffset">40</integer>
 
-    <!-- Component name of the default wallpaper. This will be ImageWallpaper if not
-         specified -->
-    <string name="default_wallpaper_component" translatable="false">com.breel.wallpapers19/com.breel.wallpapers19.doodle.wallpaper.variations.DoodleWallpaperV1</string>
-
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
 
@@ -668,9 +667,6 @@
     <!-- Whether to send camera status intent -->
     <bool name="config_sendCameraStatusIntent">true</bool>
 
-    <!-- If face auth sends the user directly to home/last open app, or stays on keyguard -->
-    <bool name="config_faceAuthDismissesKeyguard">false</bool>
-
     <!-- Smart charge sysfs node and value for suspend/resume charging-->
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
     <string name="config_SmartChargingSupspendValue" translatable="false">1</string>
@@ -678,12 +674,6 @@
 
     <!-- Smart Charing is available for OP3 -->
     <bool name="config_smartChargingAvailable">true</bool>
-
-    <!-- Whether to enable doze always on -->
-    <bool name="config_enableDozeAlwaysOn">true</bool>
-
-    <!-- Whether device supports an alt. ambient display -->
-    <bool name="config_alt_ambient_display">true</bool>
 
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
@@ -698,5 +688,10 @@
     <!-- True if the firmware supports Wi-Fi link probing -->
     <bool name="config_wifi_link_probing_supported">true</bool>
 
+    <!-- Whether to enable doze always on -->
+    <bool name="config_enableDozeAlwaysOn">true</bool>
+
+    <!-- Whether device supports an alt. ambient display -->
+    <bool name="config_alt_ambient_display">true</bool>
 
 </resources>
