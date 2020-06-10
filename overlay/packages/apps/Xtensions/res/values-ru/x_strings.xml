@@ -259,6 +259,12 @@
     <string name="clock_date_format">Формат даты</string>
     <string name="clock_date_string_edittext_title">Должно быть в формате даты, например MM/дд/гг</string>
     <string name="clock_date_string_edittext_summary">Ввод строки</string>
+    <string name="status_bar_clock_auto_hide_title">Автоматически прятать</string>
+    <string name="status_bar_clock_auto_hide_summary">Прятать и показыватьчасы с регулярным интервалом, чтобы сэкономить место в статусбаре</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">На сколько прятать</string>
+    <string name="status_bar_clock_auto_hide_hdur_summary">Количество секунд в скрытом состоянии</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Сколько показывать</string>
+    <string name="status_bar_clock_auto_hide_sdur_summary">Количество секунд в видимом состоянии</string>
 
     <!-- Volume Wake -->
     <string name="volume_rocker_wake_title">Пробуждать кнопками громкости</string>
@@ -1315,9 +1321,7 @@
     <string name="pixel_navbar_anim_title">Анимация pixel</string>
     <string name="pixel_navbar_anim_summary">Изменить анимацию кнопки домой</string>
 
-    <!-- QS BG Tint -->
-    <string name="qs_bg_use_new_tint">Плитки QS с оттенком</string>
-    <string name="qs_bg_use_new_tint_summary">Использовать системный цвет для рисунка и фона(оттенок) плиток быстрых настроек</string>
+
 
     <!-- QS DataUsage Toggle -->
     <string name="qs_datausage_title">Показывать использование данных в заголовке плитки QS</string>
@@ -1334,4 +1338,39 @@
     <!-- R Notification headers -->
     <string name="notification_headers_title">Уведомления в стиле R</string>
     <string name="notification_headers_summary">Показывать заголовки уведомлений в стиле R (Требуется перезагрузка системного интерфейса)</string>
+
+    <!-- Hide Apps from Recents -->
+     <string name="hide_apps_from_recents_title">Не показывать приложение в недавних</string>
+     <string name="hide_apps_from_recents_summary">Не отбражать приложение в недавних</string>
+     <string name="hide_from_recents_add_app">Добавить приложение</string>
+     <string name="title_activity_carbon_recents_settings">Недавние</string>
+
+     <!-- FOD icon use wallpaper color -->
+    <string name="fod_wallpaper_color">Использовать цвет обоев для иконки сканера</string>
+    <string name="fod_wallpaper_color_summary">Использовать основной цвет обоев для иконки сканера отпечатка\nПрим: смотрится хорощо не со всеми обоями</string>
+
+    <!-- QS BG Tint -->
+    <string name="qs_bg_use_new_tint">Плитки QS с оттенком</string>
+    <string name="qs_bg_use_new_tint_summary">Используемый цвет для рисунка и фона(оттенок) плиток быстрых настроек</string>
+    <string name="qs_tint_off">Отключено</string>
+    <string name="qs_tint_random">Случайный цвет оттенка</string>
+    <string name="qs_tint_accent">Оттенок цвета акцента</string>
+    <string name="qs_disco_mode">Режим Qs Disco</string>
+
+    <!-- Gradient Panel QS Bg -->
+    <string name="qs_new_bg_title">Фон панели Qs с градиентом</string>
+    <string name="qs_new_bg_summary">Использоватьградиент для фона панели быстрых настроек</string>
+
+    <!-- QS Label Tint -->
+    <string name="qs_label_use_new_tint">Цвет заголовков плиток QS</string>
+    <string name="qs_label_tint_off">По умолчанию</string>
+    <string name="qs_label_tint_random">Случайный цвет</string>
+    <string name="qs_label_tint_accent">Системный цвет</string>
+    <string name="qs_label_tint_gradient">Цвет с градиентом</string>
+
+    <!-- Powermenu Background -->
+    <string name="power_menu_bg_title">Фон меню</string>
+    <string name="power_menu_bg_summary">Испольовать специальные эффекты когда меню питаня активно</string>
+    <string name="power_menu_bg_style_title">Тип эффекта</string>
+
 </resources>

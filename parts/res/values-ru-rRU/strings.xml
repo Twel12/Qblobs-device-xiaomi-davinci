@@ -22,6 +22,7 @@
     <string name="dirac_headset_title">Тип наушников</string>
     <string name="dirac_preset_title">Выберите настройку</string>
     <!-- Dirac settings: Hi-Fi -->
+    <string name="dirac_hifi_enable_title">Включить Hi-Fi</string>
     <string name="dirac_hifi_title">Звук Hi-Fi</string>
     <string name="dirac_hifi_summary">Уменьшить шумы и искажения для улучшения качества звука</string>
     <!-- Dirac settings: Headset types -->

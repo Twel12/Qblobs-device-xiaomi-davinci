@@ -294,4 +294,19 @@
     <!-- Ultra Power -->
     <string name="ultra_power_save_title">Ультра энергосбережение</string>
     <string name="ultra_power_save_summary">Когда экран отключается, устройство переключится в режим ультра энергосбережения</string>
+
+    <!-- Rom version -->
+    <string name="rom_version_title">Версия Xtended</string>
+
+    <!-- Device Codename -->
+    <string name="about_device_name">Кодовое имя устройства</string>
+
+    <!-- Xtended maintainer -->
+    <string name="maintainer">Сопровождающий</string>
+
+    <string name="build_date">Дата сборки</string>
+
+    <!-- About Firmware information -->
+    <string name="xtended_firmware_version">"Информация о прошивке"</string>
+
 </resources>
