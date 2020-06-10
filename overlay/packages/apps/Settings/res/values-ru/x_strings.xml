@@ -22,9 +22,6 @@
     <string name="x_settings_title">X-Tensions</string>
     <string name="x_settings_summary">Наш центр настройки</string>
 
-    <!-- Rom version -->
-    <string name="rom_version_title">Версия Xtended</string>
-
     <!-- Dev Info -->
     <string name="xtended_about_nfo">О Xtended</string>
     <string name="xtended_about_info_summary_title">Информация о нас</string>
