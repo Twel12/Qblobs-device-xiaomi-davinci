@@ -515,6 +515,13 @@ vendor/lib/libgsl.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libOpenCL.so
+vendor/etc/permissions/android.hardware.opengles.aep.xml
+
+# Graphics (Vulkan)
+vendor/etc/permissions/android.hardware.vulkan.compute.xml
+vendor/etc/permissions/android.hardware.vulkan.level.xml
+vendor/etc/permissions/android.hardware.vulkan.version.xml
+vendor/etc/permissions/android.software.vulkan.deqp.level.xml
 
 # FM
 lib64/fm_helium.so
