@@ -16,4 +16,9 @@
     <string name="fod_pressed_state_icon_white">White</string>
     <string name="fod_pressed_state_solid_color">Cyan</string>
 
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">QS footer напоминание</string>
+    <string name="qs_footer_warnings_summary">Показывать напоминание в нижней части панели быстрых настроек если сеть мониторится внешним приложением или vpn</string>
+
+
 </resources>

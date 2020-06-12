@@ -306,4 +306,21 @@
     <!-- About Firmware information -->
     <string name="xtended_firmware_version">"Информация о прошивке"</string>
 
+    <!-- Battery health -->
+    <string name="battery_health_title">Состояние батареи</string>
+    <string name="battery_health_summary">Отслеживание состояния батареи вашего устройства</string>
+    <string name="current_battery_capacity">Текущая ёмкость батареи</string>
+    <string name="current_battery_capacity_summary">Текущая ёмкость батареи измеренная ядром</string>
+    <string name="designed_battery_capacity">Первоначальная ёмкость батареи</string>
+    <string name="designed_battery_capacity_summary">Ёмкость батареи заложенная производителем</string>
+    <string name="battery_charge_cycles">Число циклов заряд-разряд</string>
+
+    <!-- QS header styles -->
+    <string name="qs_header_style_title">Стиль заголовка QS</string>
+    <string name="qs_header_black">Чёрный</string>
+    <string name="qs_header_grey">Серый</string>
+    <string name="qs_header_lightgrey">Светло серый</string>
+    <string name="qs_header_accent">На основе акцента</string>
+    <string name="qs_header_transparent">Прозрачный</string>
+
 </resources>
