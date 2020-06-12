@@ -1373,4 +1373,9 @@
     <string name="power_menu_bg_summary">Испольовать специальные эффекты когда меню питаня активно</string>
     <string name="power_menu_bg_style_title">Тип эффекта</string>
 
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">QS напоминание</string>
+    <string name="qs_footer_warnings_summary">Показывать напоминание в нижней части панели быстрых настроек если сеть мониторится внешним приложением или vpn</string>
+
+
 </resources>
