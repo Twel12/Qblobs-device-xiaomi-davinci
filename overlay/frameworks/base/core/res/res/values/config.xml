@@ -313,7 +313,7 @@
 
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
-    <fraction name="config_autoBrightnessAdjustmentMaxGamma">300%</fraction>
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">100%</fraction>
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
@@ -640,12 +640,6 @@
     <!-- Show a custom view for FOD -->
     <bool name="config_needCustomFODView">true</bool>
 
-    <!-- Default value for proximity check on screen wake
-     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
-    <bool name="config_proximityCheckOnWake">true</bool>
-    <integer name="config_proximityCheckTimeout">100</integer>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
-
     <!-- Whether to allow sending active app broadcast -->
     <bool name="config_allowActivePackageBroadcast">true</bool>
 
@@ -653,7 +647,7 @@
     <bool name="config_sendCameraStatusIntent">true</bool>
 
     <!-- Smart charge sysfs node and value for suspend/resume charging-->
-    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/battery_charging_enabled</string>
     <string name="config_SmartChargingSupspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
 
@@ -678,5 +672,11 @@
 
     <!-- Whether device supports an alt. ambient display -->
     <bool name="config_alt_ambient_display">true</bool>
+
+    <!-- Fast brightness animation ramp rate in brightness units per second-->
+     <integer name="config_brightness_ramp_rate_fast">2466</integer>
+
+    <!-- Slow brightness animation ramp rate in brightness units per second-->
+     <integer name="config_brightness_ramp_rate_slow">1973</integer>
 
 </resources>
