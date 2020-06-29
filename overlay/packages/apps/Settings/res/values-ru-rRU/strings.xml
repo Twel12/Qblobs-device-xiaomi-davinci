@@ -12,4 +12,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="theme_customization_font_title">Шрифт заголовок / основной</string>
+    <string name="theme_customization_icon_shape_title">Форма иконок</string>
+    <string name="theme_customization_sysui_icon_title">Иконки статусбара</string>
 </resources>

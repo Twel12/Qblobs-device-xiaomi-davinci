@@ -323,4 +323,32 @@
     <string name="qs_header_accent">На основе акцента</string>
     <string name="qs_header_transparent">Прозрачный</string>
 
+    <!-- Switch styles -->
+    <string name="switch_style_title">Стиль переключателей</string>
+    <string name="switch_default">По умолчанию</string>
+    <string name="switch_narrow">Узкий</string>
+
+    <!-- Settings dashboard icon style -->
+    <string name="theming_settings_dashboard_icons_title">Значки панели настроек</string>
+    <string name="theming_settings_dashboard_icons_default2">Фон по умолчанию</string>
+    <string name="theming_settings_dashboard_icons_default_accent2">Фон цвета акцента</string>
+    <string name="theming_settings_dashboard_icons_plain">Без фона</string>
+    <string name="theming_settings_dashboard_icons_plain_accent">Без фона, цвет акцента</string>
+
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Стиль плиток QS</string>
+    <string name="qstile_default">По умолчанию</string>
+    <string name="qstile_circle_trim">Круг с окантовкой</string>
+    <string name="qstile_dual_tone_circle">Круг с двумя оттенками</string>
+    <string name="qstile_squircle_trim">Скруглённый квадрат с окантовкой</string>
+    <string name="qstile_wavey">Волнистые</string>
+    <string name="qstile_ninja">Ниндзя</string>
+    <string name="qstile_dottedcircle">Пунктирный круг</string>
+    <string name="qstile_attemptmountain">Горы</string>
+    <string name="qstile_squaremedo">Двойной квадрат</string>
+    <string name="qstile_inkdrop">Клякса</string>
+    <string name="qstile_cookie">Печенье</string>
+    <string name="qstile_circleoutline">Окружность</string>
+    <string name="qstile_neon">Неоновый свет</string>
+    <string name="qstile_triangle">Треугольник</string>
 </resources>
