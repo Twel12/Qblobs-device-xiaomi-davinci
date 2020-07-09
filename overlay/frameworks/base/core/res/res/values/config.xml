@@ -697,4 +697,23 @@
      <!-- FOD -->
      <bool name="config_targetUsesInKernelDimming">false</bool>
 
+    <!-- Default state for LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
+    <!-- Use default display mode -->
+    <integer name="config_defaultLiveDisplayMode">0</integer>
+
+    <!-- Display mode remapping table -->
+    <string-array name="config_displayModeMappings" translatable="false">
+        <item>none:standard</item>
+        <item>hal_dci_p3:dci_p3</item>
+        <item>hal_srgb:srgb</item>
+    </string-array>
+
+    <!-- Filter unampped display modes -->
+    <bool name="config_filterDisplayModes">true</bool>
+
+    <!-- Whether device supports in-display fingerprint when screen is turned off -->
+    <bool name="config_supportsInDisplayFingerprintGesture">true</bool>
+
 </resources>
