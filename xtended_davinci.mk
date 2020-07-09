@@ -35,6 +35,6 @@ XTENDED_MAINTAINER := SVB22
 EXTRA_FOD_ANIMATIONS := true
 
 # Inherit from custom vendor
-$(call inherit-product, vendor/ANXCamera/config.mk)
+# $(call inherit-product, vendor/ANXCamera/config.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
