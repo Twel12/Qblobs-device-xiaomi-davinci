@@ -1300,9 +1300,9 @@
     <string name="fod_pressed_state_title">Поведение отпечатка при нажатии</string>
     <string name="fod_pressed_state_summary">Выберите подходящее поведение в состоянии нажатия для вашего устройства</string>
     <string name="fod_pressed_state_footer">Иконки/цвета могут различаться в зависимости от того, какое устройство вы используете.</string>
-    <string name="fod_pressed_state_icon">Зеленый</string>
+    <string name="fod_pressed_state_icon">Голубой</string>
     <string name="fod_pressed_state_icon_white">Белый</string>
-    <string name="fod_pressed_state_solid_color">Голубой</string>
+    <string name="fod_pressed_state_solid_color">Зеленый</string>
 
     <!-- FOD animations -->
     <string name="fod_recog_animation">Анимация при распознавании</string>

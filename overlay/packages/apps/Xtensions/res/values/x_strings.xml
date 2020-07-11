@@ -12,8 +12,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="fod_pressed_state_icon">Green</string>
+    <string name="fod_pressed_state_icon">Cyan</string>
     <string name="fod_pressed_state_icon_white">White</string>
-    <string name="fod_pressed_state_solid_color">Cyan</string>
+    <string name="fod_pressed_state_solid_color">Green</string>
 
 </resources>
