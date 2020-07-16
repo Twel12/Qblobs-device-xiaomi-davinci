@@ -351,4 +351,13 @@
     <string name="qstile_circleoutline">Окружность</string>
     <string name="qstile_neon">Неоновый свет</string>
     <string name="qstile_triangle">Треугольник</string>
+
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Длина черты панели навигации при использовании жестов.</string>
+    <string name="home_handle_low_label">Скрыта</string>
+    <string name="home_handle_high_label">Длинная</string>
+
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Провести пальцем вверх, чтобы разблокировать</string>
+    <string name="security_settings_face_require_swipe_summary">Провести пальцем вверх на экране блокировки, для разблокировки по лицу</string>
 </resources>
