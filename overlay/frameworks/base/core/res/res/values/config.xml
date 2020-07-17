@@ -290,6 +290,27 @@
         <item>450</item>
     </array>
 
+    <!-- Whether or not to skip the initial brightness ramps when the display transitions to
+     STATE_ON. Setting this to true will skip the brightness ramp to the last stored active
+     brightness value and will repeat for the following ramp if autobrightness is enabled. -->
+     <bool name="config_skipScreenOnBrightnessRamp">true</bool>
+
+     <!-- User activity timeout: Maximum screen dim duration as a percentage of screen off timeout.
+     This resource is similar to config_maximumScreenDimDuration but the maximum
+     screen dim duration is defined as a ratio of the overall screen off timeout
+     instead of as an absolute value in milliseconds.  This is useful for reducing
+     the dim duration when the screen off timeout is very short.
+     When computing the screen dim duration, the power manager uses the lesser
+     of the effective durations expressed by config_maximumScreenDimDuration and
+     config_maximumScreenDimRatio.
+     This value must be between 0% and 100%.  If the value is zero, the screen will not
+     dim before the device goes to sleep.
+    -->
+    <fraction name="config_maximumScreenDimRatio">29.9%</fraction>
+
+    <!-- If AOD can show an ambient version of the wallpaper -->
+    <bool name="config_dozeSupportsAodWallpaper">false</bool>
+
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
     <bool name="config_automatic_brightness_available">true</bool>
@@ -299,7 +320,7 @@
          when adapting to brighter or darker environments.  This parameter controls how quickly
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
-    <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">3000</integer>
 
     <!-- Default screen brightness setting.
@@ -329,7 +350,7 @@
     <!-- Screen brightness used to dim the screen while dozing in a very low power state.
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDoze">7</integer>
+    <integer name="config_screenBrightnessDoze">17</integer>
 
     <!-- Whether WiFi display is supported by this device.
          There are many prerequisites for this feature to work correctly.
@@ -673,16 +694,7 @@
     <!-- Whether device supports an alt. ambient display -->
     <bool name="config_alt_ambient_display">true</bool>
 
-    <!-- Fast brightness animation ramp rate in brightness units per second-->
-     <integer name="config_brightness_ramp_rate_fast">2466</integer>
-
-    <!-- Slow brightness animation ramp rate in brightness units per second-->
-     <integer name="config_brightness_ramp_rate_slow">1973</integer>
-
      <!-- FOD -->
      <bool name="config_targetUsesInKernelDimming">false</bool>
-
-    <!-- If face auth sends the user directly to home/last open app, or stays on keyguard -->
-    <bool name="config_faceAuthDismissesKeyguard">false</bool>
 
 </resources>
