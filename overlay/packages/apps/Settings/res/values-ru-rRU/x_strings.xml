@@ -360,4 +360,14 @@
     <!-- Swipe up for face unlock -->
     <string name="security_settings_face_require_swipe">Провести пальцем вверх, чтобы разблокировать</string>
     <string name="security_settings_face_require_swipe_summary">Провести пальцем вверх на экране блокировки, для разблокировки по лицу</string>
+
+    <!-- Xtensions Styling -->
+    <string name="xtensions_style_title">Фон меню Xtensions</string>
+    <string name="xtensions_style_accent">Цвет акцента</string>
+    <string name="xtensions_style_gradient">Цвет с градиентом</string>
+    <string name="xtensions_style_random">Случайный цвет</string>
+
+    <!-- GVM -->
+    <string name="theme_customization_statusbar_height_title">Высота статусбара</string>
+    <string name="theme_customization_ui_radius_title">Радиус закругления UI</string>
 </resources>
