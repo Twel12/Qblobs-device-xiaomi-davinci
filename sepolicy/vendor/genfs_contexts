@@ -1,0 +1,3 @@
+genfscon debugfs /sched_features                      u:object_r:debugfs_sched_features:s0
+genfscon sysfs /devices/platform/soc/1d84000.ufshc/clkgate_enable               u:object_r:sysfs_scsi_host:s0
+genfscon sysfs /devices/platform/soc/1d84000.ufshc/hibern8_on_idle_enable       u:object_r:sysfs_scsi_host:s0

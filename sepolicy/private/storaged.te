@@ -1,0 +1,1 @@
+allow storaged sysfs_storage:file { read open getattr };

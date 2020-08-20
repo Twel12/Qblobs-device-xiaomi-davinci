@@ -8,5 +8,7 @@ allow hal_lineage_fod_default hal_fingerprint_hwservice_xiaomi:hwservice_manager
 allow hal_lineage_fod_default hal_touchfeature_hwservice_xiaomi:hwservice_manager find;
 allow hal_lineage_fod_default system_suspend_hwservice:hwservice_manager find;
 
+
 binder_call(hal_lineage_fod_default, hal_fingerprint_default)
 binder_call(hal_lineage_fod_default, hal_touchfeature_default)
+binder_call(hal_lineage_fod_default, system_suspend_hwservice)
