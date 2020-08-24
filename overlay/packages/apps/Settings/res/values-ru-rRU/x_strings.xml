@@ -353,9 +353,11 @@
     <string name="qstile_triangle">Треугольник</string>
 
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Длина черты панели навигации при использовании жестов.</string>
+    <string name="home_handle_sizer_title">Длина черты панели навигации</string>
     <string name="home_handle_low_label">Скрыта</string>
     <string name="home_handle_high_label">Длинная</string>
+    <string name="home_handle_height_sizer_title">Толщина черты панели навигации.</string>
+    <string name="home_handle_thick_label">Толстая</string>
 
     <!-- Swipe up for face unlock -->
     <string name="security_settings_face_require_swipe">Провести пальцем вверх, чтобы разблокировать</string>
@@ -370,4 +372,11 @@
     <!-- GVM -->
     <string name="theme_customization_statusbar_height_title">Высота статусбара</string>
     <string name="theme_customization_ui_radius_title">Радиус закругления UI</string>
+
+    <!-- Audio Panel Theme -->
+    <string name="audio_panel_view_theme_title">Настройки панели громкости</string>
+    <string name="audio_panel_view_theme_summary">Выберите панель громкости</string>
+    <string name="audio_panel_theme_default">Xtended</string>
+    <string name="audio_panel_theme_aosp">AOSP</string>
+    <string name="audio_panel_theme_custom">Xtended Custom</string>
 </resources>

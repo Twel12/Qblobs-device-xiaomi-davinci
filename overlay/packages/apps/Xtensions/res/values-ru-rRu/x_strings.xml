@@ -1271,7 +1271,7 @@
     <string name="lockscreen_date_selection_str_border_gradient">Темный с градиентными границами</string>
 
     <!-- Q To X Clock -->
-    <string name="center_text_clock_title">Текстовые часы по центру</string>
+    <string name="center_text_clock_title">Текстовые часы</string>
     <string name="center_text_clock_summary">Трансформировать Q-часы в X-часы</string>
 
     <!-- QS Settings Button Icon -->
@@ -1462,5 +1462,23 @@
     <string name="selinux_permissive_toast_title">Selinux установлен в permissive!</string>
     <string name="selinux_enforcing_toast_title">Selinux установлен в enforcing!</string>
     <string name="cannot_get_su">Не удалось выполнить действие из-за отсутствия root доступа</string>
+
+    <!-- MusicCard -->
+    <string name="volume_panel_musiccard_title">Музыкальные карточки</string>
+    <string name="volume_panel_musiccard_summary">Включить музыкальные карточки </string>
+
+    <!-- Lockscreen Item Alignments -->
+    <string name="lockscreen_date_alignment_title">Выравнивание даты</string>
+    <string name="lockscreen_ownerinfo_alignment_title">Выравнивание информации о владельце</string>
+    <string name="lock_item_left">Слева</string>
+    <string name="lock_item_center">По центру</string>
+    <string name="lock_item_right">Справа</string>
+    <string name="lockscreen_item_padding_title">Отступ между элементами экрана</string>
+    <string name="lockscreen_weather_alignment_title">Выравнивание информации о погоде</string>
+    <string name="lockscreen_weather_selection_title">Стиль виджета погоды</string>
+
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Show clipboard access alerts</string>
+    <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
 
 </resources>
