@@ -876,8 +876,8 @@
     <!-- Quick settings tiles columns and rows config -->
     <string name="qs_layout_category">Расположение столбцов</string>
     <string name="qs_columns_portrait_title">Столбцы (Портретный)</string>
-    <string name="qs_columns_landscape_title">Стобцы (Ландшафтный)</string>
-    <string name="sysui_qqs_count_title">Стобцы (Квикбар)</string>
+    <string name="qs_columns_landscape_title">Столбцы (Ландшафтный)</string>
+    <string name="sysui_qqs_count_title">Столбцы (Квикбар)</string>
     <string name="qs_tile_title_visibility_title">Название плитки</string>
     <string name="qs_tile_title_visibility_summary">Отображать заголовок под каждой плиткой</string>
     <string name="qs_rows_category">Расположение строк</string>
@@ -1480,5 +1480,8 @@
     <!-- Clipboard toast toggle -->
     <string name="show_clipboard_toast">Show clipboard access alerts</string>
     <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
+
+    <string name="ambient_decor_title">Настройки Xtended Ambient</string>
+    <string name="ambient_decor_summary">Меню для настройки вида Ambient</string>
 
 </resources>
