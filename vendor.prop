@@ -162,3 +162,6 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Time
+persist.vendor.delta_time.enable=true
