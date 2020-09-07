@@ -45,12 +45,9 @@ vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 # ANT+
-product/lib/com.qualcomm.qti.ant@1.0.so
 -lib/libantradio.so
-product/lib64/com.qualcomm.qti.ant@1.0.so
 -lib64/libantradio.so
-vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so
-vendor/lib/com.qualcomm.qti.ant@1.0.so
+product/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
 
@@ -111,8 +108,8 @@ vendor/lib/hw/sound_trigger.primary.sm6150.so
 vendor/lib/hw/audio.primary.sm6150.so
 
 # Bluetooth
-product/lib64/libaptX_encoder.so
-product/lib64/libaptXHD_encoder.so
+product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
@@ -129,6 +126,7 @@ vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 
 # Camera
 lib/libcameraservice.so
+lib64/libarc_layer_sgl.so
 lib64/libcameraservice.so
 lib64/libOpenCL.so
 vendor/bin/remosaic_daemon
@@ -413,18 +411,18 @@ vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 -vendor/lib/libplatformconfig.so
 vendor/lib/vendor.qti.hardware.capabilityconfigstore@1.0.so
 
-# Display (from def_reteu-user-10-QPFS30.103-21-1-2-c993f-release-keys)
-vendor/lib64/libdisp-aba.so|3a35a8c7120d5f0748b4584dd56b1398d1acdd69
-vendor/lib64/libdisplayqos.so|86abe8922c686f205520b6980f337dda79182bec
-vendor/lib64/libhdr_tm.so|103b2f0893a767f162ffc2945b5edea062fb0354
-vendor/lib64/libqseed3.so|4a4fbff019467a4531816ab58e259b22d95630fa
-vendor/lib64/libsdedrm.so|dbdcb66859015168a7dbc6c62d1f04b64a157e41
-vendor/lib64/libsdm-color.so|e5c120cb6acbecf5a2c344029b103d6b61fc3925
-vendor/lib64/libsdm-colormgr-algo.so|2dc1679faf4a2fab6ae0e6b0ab89c3547f83ac7d
-vendor/lib64/libsdm-diag.so|d7a96d76dd2fb7516a9ed89c39a3f0992ec3266e
-vendor/lib64/libsdm-disp-vndapis.so|aa658050b07c04b114cb43e6535fe45883943152
-vendor/lib64/libsdmextension.so|72991016a61b3d56ef91265ac76134b55636c392
-vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
+# Display (from LA.UM.8.1.r1-13500-sm8150.0)
+vendor/lib64/libdisp-aba.so|a7f8975e5a323100bb9e5feb14085c0c4479ce96
+vendor/lib64/libdisplayqos.so|8e5f13a5b7ea0efa8db2902c8719380d710bc857
+vendor/lib64/libhdr_tm.so|4f08d65045893e0ec2b351581d6378f2e187ca82
+vendor/lib64/libqseed3.so|3fb480721b26a2df0a2a96359814ef37a5da9148
+vendor/lib64/libsdedrm.so|1a6d6ac050678dbc2b7d724ff7c642e4946b573b
+vendor/lib64/libsdm-color.so|76967da4af05736649eab5568f59861a16be33bd
+vendor/lib64/libsdm-colormgr-algo.so|5f497ba10168722455b0a3b80e7e3dca85e00c8f
+vendor/lib64/libsdm-diag.so|1044fd68ba610d08d7a02765a95563cc90dd5a54
+vendor/lib64/libsdm-disp-vndapis.so|6f4fd3a5a253ec4dff787de1ad6e67d07e921d94
+vendor/lib64/libsdmextension.so|fc9994028e62ed31223b9a494c4bf4a469b855a9
+vendor/lib64/libtinyxml2_1.so|92adc9b612766cda6fa50f4c36d046b1a6da0816
 
 # Display calibration
 vendor/etc/dsi_ss_fhd_ea_f10_cmd_display_mi.xml
@@ -483,45 +481,40 @@ vendor/lib64/libwvhidl.so|6418b2ace2f3c9758ac54edb85a4dea43accfa9a
 vendor/lib64/mediadrm/libwvdrmengine.so|4f78d73cfddc0b5bc9a5dcbb20470beaad0d3047
 
 # Graphics
-vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libEGL_adreno.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so
-vendor/lib64/egl/libq3dtools_adreno.so
-vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/egl/libQTapGLES.so
-vendor/lib64/hw/vulkan.sm6150.so
-vendor/lib64/libadreno_utils.so
-vendor/lib64/libC2D2.so
-vendor/lib64/libc2d30_bltlib.so
-vendor/lib64/libCB.so
-vendor/lib64/libgsl.so
-vendor/lib64/libllvm-glnext.so
-vendor/lib64/libllvm-qcom.so
-vendor/lib64/libOpenCL.so
-vendor/lib/egl/eglSubDriverAndroid.so
-vendor/lib/egl/libEGL_adreno.so
-vendor/lib/egl/libGLESv1_CM_adreno.so
-vendor/lib/egl/libGLESv2_adreno.so
-vendor/lib/egl/libq3dtools_adreno.so
-vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/egl/libQTapGLES.so
-vendor/lib/hw/vulkan.sm6150.so
-vendor/lib/libadreno_utils.so
-vendor/lib/libC2D2.so
-vendor/lib/libc2d30_bltlib.so
-vendor/lib/libCB.so
-vendor/lib/libgsl.so
-vendor/lib/libllvm-glnext.so
-vendor/lib/libllvm-qcom.so
-vendor/lib/libOpenCL.so
-vendor/etc/permissions/android.hardware.opengles.aep.xml
-
-# Graphics (Vulkan)
-vendor/etc/permissions/android.hardware.vulkan.compute.xml
-vendor/etc/permissions/android.hardware.vulkan.level.xml
-vendor/etc/permissions/android.hardware.vulkan.version.xml
-vendor/etc/permissions/android.software.vulkan.deqp.level.xml
+vendor/lib64/egl/eglSubDriverAndroid.so|742f3207dd6b38464d3fb5a4fa0b5963611455ef
+vendor/lib64/egl/libEGL_adreno.so|7da05bcc2b18bf33311ccedec3d30cc1e4866404
+vendor/lib64/egl/libGLESv1_CM_adreno.so|1302de0547ae94f71de99d19f6626a128e3df826
+vendor/lib64/egl/libGLESv2_adreno.so|ae3f15fa4b71be28eea843cbb7df834b317af93c
+vendor/lib64/egl/libq3dtools_adreno.so|f8e2b2e134ba7d8f288a59c04479a2491654bb28
+vendor/lib64/egl/libq3dtools_esx.so|fb64724694170d5a42e7c5156a326257606763be
+vendor/lib64/egl/libQTapGLES.so|553b3d78478f8935d3c5a12da87962482b81b6f7
+vendor/lib64/hw/vulkan.sm6150.so|ee1afad3d031bf3528cad320c2e1f71e1351eee4
+vendor/lib64/libadreno_utils.so|3d21414210be1adba0e699c436c53427f058a1bf
+vendor/lib64/libC2D2.so|b1ab52667820a7cdf4ef41cd4294600477b24946
+vendor/lib64/libc2d30_bltlib.so|ba28e665d1e7dce026f88d15864ac293e2585812
+vendor/lib64/libCB.so|b3550eaa067ff2a74fd3862813d2902b84c5d6c2
+vendor/lib64/libgsl.so|52ca4454afd19b9a2f192e7f4479b7bdbac0b930
+vendor/lib64/libllvm-glnext.so|6b639f597421c8a847be154c3f7cd492de379f8e
+vendor/lib64/libllvm-qcom.so|efc1a48bc0a453be601e07994652a700d0142cae
+vendor/lib64/libOpenCL.so|3d9fdac44941e4e463bd6d50f077e9d69c4a64c3
+vendor/lib64/libOpenCL.so:lib64/libOpenCL.so|3d9fdac44941e4e463bd6d50f077e9d69c4a64c3
+vendor/lib/egl/eglSubDriverAndroid.so|5959d0b6dc1025230066c33fb199b1b4bf9c0b0e
+vendor/lib/egl/libEGL_adreno.so|556a6732d86df0ee5813f5c4c0fe7c1b74314cac
+vendor/lib/egl/libGLESv1_CM_adreno.so|9871d8cd9763b00bc88492a076a1efb9e68511bc
+vendor/lib/egl/libGLESv2_adreno.so|f9e3203b18eea3356bc20b5a4bdd7a7981ba16d6
+vendor/lib/egl/libq3dtools_adreno.so|5d6d2fb9f7b33cf9ea1044a93b1e528308dc0d6e
+vendor/lib/egl/libq3dtools_esx.so|172e8c6aa1daac72b559cf7e911388478b482c4e
+vendor/lib/egl/libQTapGLES.so|ed4d4892ef6aab0f95fd528a49e7f47e17125d51
+vendor/lib/hw/vulkan.sm6150.so|d1bd6124c05eb5c4173b4a38c6197eaf68a17dd7
+vendor/lib/libadreno_utils.so|70ea295597dc3e500a5f19d23ebe8d2535436f3a
+vendor/lib/libC2D2.so|abae765d1ee0b8ddf7adbcf96c69ecf9e643e83e
+vendor/lib/libc2d30_bltlib.so|829c2cf26ee134dcbec9799a87b08dbd02951ffa
+vendor/lib/libCB.so|39b9ebe2dc07ae25493ac91386705a15fe4b05a7
+vendor/lib/libgsl.so|8ee04ca1b5f660a609093d6eadbcffc02a77e747
+vendor/lib/libllvm-glnext.so|802a0c69421a3fefe8d86eb123247c2d3dc5f179
+vendor/lib/libllvm-qcom.so|5ea2df7b1566438906b4ff43faa6423216bd9260
+vendor/lib/libOpenCL.so|c105d1d6cfef52faa1561d1e57d0d7dd5b4c368a
+vendor/lib/libOpenCL.so:lib/libOpenCL.so|c105d1d6cfef52faa1561d1e57d0d7dd5b4c368a
 
 # FM
 lib64/fm_helium.so
@@ -626,7 +619,7 @@ product/lib64/vendor.qti.hardware.radio.ims@1.1.so
 product/lib64/vendor.qti.hardware.radio.ims@1.2.so
 product/lib64/vendor.qti.hardware.radio.ims@1.3.so
 product/lib64/vendor.qti.hardware.radio.ims@1.4.so
--product/priv-app/ims/ims.apk|f60da88facad90103b1713702abbebdda3edca21
+-product/priv-app/ims/ims.apk|d961dc5dbd93272d960d7b8aaac7ffa38013c877
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
 vendor/bin/imsrcsd
@@ -773,7 +766,6 @@ vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 vendor/lib/libqmi.so
-vendor/lib/libqrtr.so
 
 # RIL
 -product/app/QtiTelephonyService/QtiTelephonyService.apk
@@ -921,7 +913,7 @@ vendor/etc/thermald-devices.conf
 vendor/lib64/libthermalclient.so
 
 # Time
--vendor/app/TimeService/TimeService.apk;:timeservice_app_cert
+-vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
@@ -960,7 +952,6 @@ etc/init/wfdservice.rc
 etc/wfdconfigsink.xml
 -framework/WfdCommon.jar
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so
-lib/libdisplayconfig.so
 lib/libFileMux.so
 lib/libmmosal.so
 lib/libmmparser_lite.so
@@ -983,7 +974,6 @@ lib/libwfduibcsink.so
 lib/libwfduibcsinkinterface.so
 lib/libwfduibcsrc.so
 lib/libwfduibcsrcinterface.so
-lib64/libdisplayconfig.so
 lib64/libFileMux.so
 lib64/libmmosal.so
 lib64/libmmparser_lite.so
@@ -1041,17 +1031,9 @@ vendor/lib64/libmmparser_lite_proprietary.so
 # WLAN (WiFi Display - HDCP)
 vendor/bin/wfdhdcphalservice
 vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
-vendor/lib/libhdcp1prov.so
-vendor/lib/libhdcp2p2prov.so
-vendor/lib/libhdcpsrm.so
-vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdhdcpservice_proprietary.so
 vendor/lib/libwfdmodulehdcpsession.so
-vendor/lib64/libhdcp1prov.so
-vendor/lib64/libhdcp2p2prov.so
-vendor/lib64/libhdcpsrm.so
-vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libwfdhdcpcp.so
 
 # Xiaomi MAC
