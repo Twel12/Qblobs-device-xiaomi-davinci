@@ -425,8 +425,6 @@ vendor/lib64/libsdmextension.so|fc9994028e62ed31223b9a494c4bf4a469b855a9
 vendor/lib64/libtinyxml2_1.so|92adc9b612766cda6fa50f4c36d046b1a6da0816
 
 # Display calibration
-vendor/etc/dsi_ss_fhd_ea_f10_cmd_display_mi.xml
-vendor/etc/dsi_ss_fhd_eb_f10_cmd_display_mi.xml
 vendor/etc/qdcm_calib_data_ss_ea_fhd_cmd_dsi_panel.xml
 vendor/etc/qdcm_calib_data_ss_eb_fhd_cmd_dsi_panel.xml
 
