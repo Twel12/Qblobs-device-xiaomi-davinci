@@ -145,7 +145,11 @@ PRODUCT_COPY_FILES += \
 
 # DPM
 PRODUCT_PACKAGES += \
-    libshim_dpmframework
+    libshim_dpmframework \
+    vendor.display.config@1.10 \
+    vendor.qti.hardware.display.allocator-service \
+    vendor.qti.hardware.display.allocator@1.0-service \
+    vendor.qti.hardware.display.allocator@1.0.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
