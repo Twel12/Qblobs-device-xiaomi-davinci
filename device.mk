@@ -26,6 +26,10 @@ $(call inherit-product, vendor/xiaomi/davinci/davinci-vendor.mk)
 # ANXCamera
 $(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
 
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 29
+PRODUCT_EXTRA_VNDK_VERSIONS := 29
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
