@@ -102,6 +102,7 @@ TARGET_USES_FOD_ZPOS := true
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
+DEVICE_MANIEFST_FILE += $(DEVICE_PATH)/configs/hidl/vendor.qti.gnss@3.0-service.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/compatibility_matrix.xml
 ODM_MANIFEST_SKUS += \
     davinci
