@@ -136,8 +136,6 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
 
-# NFC
-TARGET_USES_NQ_NFC := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
