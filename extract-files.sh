@@ -61,6 +61,9 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+    product/lib64/libdpmframework.so)
+        patchelf --add-needed "libshim_dpmframework.so" "${2}"
+        ;;
     esac
 }
 
