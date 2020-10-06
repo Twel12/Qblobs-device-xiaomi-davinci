@@ -125,18 +125,9 @@ vendor/lib/libbthost_if.so
 vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so
 
 # Camera
-lib/libcameraservice.so
-lib64/libarc_layer_sgl.so
-lib64/libcameraservice.so
-lib64/libOpenCL.so
 vendor/bin/remosaic_daemon
-vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
-vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
-vendor/lib64/android.hardware.camera.provider@2.4-external.so
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/libalAILDC.so
 vendor/lib64/libalCFR.so
 vendor/lib64/libalhLDC.so
@@ -171,8 +162,6 @@ vendor/lib64/libFaceGrade.so
 vendor/lib64/libft2vendor.so
 vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libhexagon_nn_stub.so
-vendor/lib64/libmegface.so
-vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libmialgo_basic.so
 vendor/lib64/libmialgo_fs.so
 vendor/lib64/libmialgo_rfs.so
@@ -185,7 +174,6 @@ vendor/lib64/libmivendor_module_motor.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmpbase.so
-vendor/lib64/libnpu.so
 vendor/lib64/libremosaiclib.so
 vendor/lib64/libremosaic_daemon.so
 vendor/lib64/libSuperSensorCPU.so
@@ -199,14 +187,8 @@ vendor/lib64/libvidhance.so
 vendor/lib64/libXMFD_AgeGender.so
 vendor/lib64/mibokeh_712_opencl.bin
 vendor/lib64/libc++_shared.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib/librice.so
-vendor/lib/android.hardware.camera.provider@2.4-external.so
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 
-# Camera (components)
+# Camera components
 vendor/lib64/camera/components/com.almalence.node.sr.so
 vendor/lib64/camera/components/com.altek.node.depurple.so
 vendor/lib64/camera/components/com.altek.node.distortioncorrection.so
@@ -272,7 +254,7 @@ vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 vendor/lib64/camera/components/libdepthmapwrapper.so
 vendor/lib64/camera/components/libmmcamera_cac3.so
 
-# Camera (configs)
+# Camera configs
 vendor/etc/camera/almalence_sr_params_tele.config
 vendor/etc/camera/almalence_sr_params_wide.config
 vendor/etc/camera/beauty_ui9_intelligent_params.config
@@ -290,10 +272,9 @@ vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin
 vendor/etc/camera/LDC_table_src1.dat
 vendor/etc/camera/LDC_table_src2.dat
 vendor/etc/camera/lf_facerank_model.bin
-vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 
-# Camera (sensors)
+# Camera sensors
 vendor/lib64/camera/com.qti.sensor.imx582_davinci.so
 vendor/lib64/camera/com.qti.sensor.imx586_davinci.so
 vendor/lib64/camera/com.qti.sensormodule.davinci_luxvisions_imx582.bin
@@ -714,7 +695,7 @@ vendor/lib64/vendor.nxp.hardware.nfc@1.1.so
 vendor/lib/nfc_nci.nqx.default.hw.so
 
 # Power-libperfmgr
-vendor/lib64/pixel-power-ext-V1-ndk_platform.so|b33a8897c626ff59707808ccbf3e2558d3a05b6e
+# vendor/lib64/pixel-power-ext-V1-ndk_platform.so|b33a8897c626ff59707808ccbf3e2558d3a05b6e
 
 # Peripheral Manager
 vendor/bin/pm-proxy
