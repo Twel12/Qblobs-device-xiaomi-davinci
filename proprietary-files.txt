@@ -304,10 +304,10 @@ vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 
-# Camera (firmware)
+# Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 
-# Camera (motor)
+# Camera motor
 vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
 vendor/lib64/hw/vendor.xiaomi.hardware.motor@1.0-impl.so
 vendor/lib64/mi.motor.daemon.so
