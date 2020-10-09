@@ -497,4 +497,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dex2oat64.enabled=true
 
 # power HAL
--include hardware/google/pixel/power-libperfmgr/hidl/device.mk
+-include hardware/google/pixel/power-libperfmgr/aidl/device.mk
