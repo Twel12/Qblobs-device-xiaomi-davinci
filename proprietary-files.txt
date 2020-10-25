@@ -697,12 +697,6 @@ vendor/lib/vendor.qti.hardware.vpp@1.3.so
 
 # NFC
 vendor/lib/libsn100u_fw.so
-vendor/bin/hw/vendor.nxp.hardware.nfc@1.2-service
-vendor/etc/init/vendor.nxp.hardware.nfc@1.2-service.rc
-vendor/lib64/nfc_nci.nqx.default.hw.so
-vendor/lib64/vendor.nxp.hardware.nfc@1.0.so
-vendor/lib64/vendor.nxp.hardware.nfc@1.1.so
-vendor/lib/nfc_nci.nqx.default.hw.so
 
 # Power-libperfmgr
 # vendor/lib64/pixel-power-ext-V1-ndk_platform.so|b33a8897c626ff59707808ccbf3e2558d3a05b6e
