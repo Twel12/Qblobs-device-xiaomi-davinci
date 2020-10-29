@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_davinci.mk
+    $(LOCAL_DIR)/syberia_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_davinci-user \
-    xtended_davinci-userdebug \
-    xtended_davinci-eng
+    syberia_davinci-user \
+    syberia_davinci-userdebug \
+    syberia_davinci-eng

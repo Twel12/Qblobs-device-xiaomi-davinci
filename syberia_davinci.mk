@@ -16,31 +16,25 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_WIFI_EXT := true
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+$(call inherit-product, vendor/syberia/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := davinci
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := xtended_davinci
+PRODUCT_NAME := syberia_davinci
 PRODUCT_MODEL := Mi 9T
 
-# Official MSM-Xtended
-XTENDED_BUILD_TYPE := OFFICIAL
-
-# Maintainer
-XTENDED_MAINTAINER := SVB22
-
-# FOD animations
-# EXTRA_FOD_ANIMATIONS := true
-
-# Inherit from custom vendor
-# $(call inherit-product, vendor/ANXCamera/config.mk)
-
 # Inherit PixelGApps
-$(call inherit-product, vendor/google/gms/config.mk)
+# $(call inherit-product, vendor/google/gms/config.mk)
+
+# FaceUnlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# FOD
+TARGET_HAS_FOD := true
 
 # We're shipping build with Gapps
-WITH_GMS := true
+# WITH_GMS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
