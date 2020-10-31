@@ -26,7 +26,7 @@ PRODUCT_NAME := syberia_davinci
 PRODUCT_MODEL := Mi 9T
 
 # Inherit PixelGApps
-# $(call inherit-product, vendor/google/gms/config.mk)
+$(call inherit-product, vendor/google/gms/config.mk)
 
 # FaceUnlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
@@ -35,6 +35,6 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_HAS_FOD := true
 
 # We're shipping build with Gapps
-# WITH_GMS := true
+WITH_GMS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
