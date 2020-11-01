@@ -4,6 +4,7 @@ allow init system_file: file { execute_no_trans };
 allow init vendor_file: file { execute_no_trans };
 allow init hwservicemanager:binder {call transfer};
 allow init vndservicemanager:binder {call transfer};
+allow init hal_graphics_composer_default:binder {call transfer};
 allow init vndbinder_device:chr_file { read write open map ioctl };
 allow init sysfs:file r_file_perms;
 allow init vendor_sysfs_battery_supply:file create_file_perms;
