@@ -515,3 +515,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # power HAL
 -include hardware/google/pixel/power-libperfmgr/aidl/device.mk
+
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
