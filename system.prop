@@ -1,4 +1,4 @@
-ro.xtended.device=davinci
+ro.syberia.device=davinci
 
 # Bluetooth
 persist.vendor.bt.a2dp.aac_whitelist=false
