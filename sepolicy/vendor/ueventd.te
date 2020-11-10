@@ -1,0 +1,2 @@
+allow ueventd debugfs:dir { open read relabelfrom };
+allow ueventd debugfs:file getattr;

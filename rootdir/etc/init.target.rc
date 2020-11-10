@@ -73,7 +73,11 @@ on init && property:ro.boot.hwc=GLOBAL
 on init && property:ro.boot.hwc=CN
     setprop ro.boot.product.hardware.sku davinci
 
-on fs
+on early-fs
+    start vold
+
+on late-fs
+    exec_start wait_for_keymaster
     mount_all /vendor/etc/fstab.qcom --early
 
     restorecon_recursive /mnt/vendor/persist
