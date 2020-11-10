@@ -687,7 +687,8 @@
     <!-- Display mode remapping table -->
     <string-array name="config_displayModeMappings" translatable="false">
         <item>none:standard</item>
-        <item>hal_dci_p3:dci_p3</item>
+        <item>smart_MC:adaptive</item>
+        <item>none:dynamic</item>
         <item>hal_srgb:srgb</item>
     </string-array>
 
