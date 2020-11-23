@@ -80,24 +80,21 @@ on init && property:ro.boot.hwc=CN
 
 on early-fs
     start vold
-
-on property:ro.boot.product.hardware.sku=davinci
-    enable nqnfc_2_0_hal_service
-
-on late-fs
-    exec_start wait_for_keymaster
     mount_all /vendor/etc/fstab.qcom --early
 
+on property:ro.boot.product.hardware.sku=davinci
+    enable vendor.nfc_hal_service
+
+on fs
     restorecon_recursive /mnt/vendor/persist
     mkdir /mnt/vendor/persist/data 0700 system system
     mkdir /mnt/vendor/persist/audio 0755 system system
     mkdir /mnt/vendor/persist/camera 0777 root root
 
 on late-fs
-    mount_all /vendor/etc/fstab.qcom --late
-
     wait_for_prop hwservicemanager.ready true
     exec_start wait_for_keymaster
+    mount_all /vendor/etc/fstab.qcom --late
 
 on post-fs-data
     mkdir /data/vendor/nnhal 0700 system system
@@ -213,7 +210,7 @@ service vendor.motor /vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
     group system
     writepid /dev/cpuset/system-background/tasks
 
-service nqnfc_2_0_hal_service /vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     override
     class hal
     user nfc

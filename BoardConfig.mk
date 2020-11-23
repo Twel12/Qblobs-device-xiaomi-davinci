@@ -148,9 +148,6 @@ TARGET_DISABLED_UBWC := true
 # MiuiCamera
 include vendor/miuicamera/common/BoardConfigVendor.mk
 
-# NFC
-TARGET_USES_NQ_NFC := true
-
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
