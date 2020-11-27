@@ -36,3 +36,5 @@ libhta_hexagon_runtime.so
 unnhal-acc-hta.so
 libalhLDC.so
 libalAILDC.so
+libVDSuperPhotoAPI.so
+libjni_jpegutil.so
