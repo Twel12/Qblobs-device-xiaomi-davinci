@@ -145,6 +145,9 @@ BOARD_KERNEL_CMDLINE += loop.max_part=7
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
 
+# MiuiCamera
+include vendor/miuicamera/common/BoardConfigVendor.mk
+
 # NFC
 TARGET_USES_NQ_NFC := true
 
