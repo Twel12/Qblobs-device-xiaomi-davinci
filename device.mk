@@ -526,3 +526,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Updater
 PRODUCT_PACKAGES += \
     Updater
+
+# FOD animations
+TARGET_WANTS_FOD_ANIMATIONS := true
