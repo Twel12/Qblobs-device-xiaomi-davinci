@@ -121,14 +121,8 @@ PRODUCT_PACKAGES += \
     libjni_jpegutil
 
 PRODUCT_PACKAGES += \
-    libshim_megvii
-
-PRODUCT_PACKAGES += \
-    Snap
-
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.camera.device@1.0 \
-    vendor.qti.hardware.camera.device@1.0_vendor
+    libshim_megvii \
+	libmedia_jni_shim
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
