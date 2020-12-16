@@ -3268,7 +3268,7 @@
     </path>
 
     <path name="camcorder-mic">
-        <path name="handset-mic" />
+        <path name="main-mic" />
     </path>
 
     <path name="bt-sco-headset">
