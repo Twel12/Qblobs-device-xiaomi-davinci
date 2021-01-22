@@ -389,6 +389,10 @@ PRODUCT_SOONG_NAMESPACES += \
 	vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
     vendor/qcom/opensource/commonsys/system/bt/conf
 
+# Smart Charge
+PRODUCT_PACKAGES += \
+    vendor.syberia.smartcharge@1.0-service
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
