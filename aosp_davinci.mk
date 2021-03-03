@@ -38,3 +38,6 @@ TARGET_HAS_FOD := true
 # WITH_GMS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Face Unlock
+TARGET_FACE_UNLOCK := true
