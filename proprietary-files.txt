@@ -86,6 +86,10 @@ vendor/lib/libsurround_3mic_proc.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libmisoundfx.so
 
+# Audio - from miui_DAVINCI_21.2.3_6d5111b469_11.0
+vendor/lib/soundfx/libdirac.so|f41715779f5a95088ce22a1b140e84e47baf67f2
+vendor/lib/soundfx/libshoebox.so|8c25f9bd479540f1b43c6827020376a40a667270
+
 # Audio (ACDB)
 vendor/etc/acdbdata/adsp_avs_config.acdb
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -214,7 +218,6 @@ vendor/lib64/libVDClearShot.so
 vendor/lib64/libVDSuperPhotoAPI.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libXMFD_AgeGender.so
-vendor/lib64/mibokeh_712_opencl.bin
 vendor/lib64/libc++_shared.so
 vendor/lib/android.hardware.camera.provider@2.4-external.so
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
@@ -305,7 +308,6 @@ vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin
 vendor/etc/camera/LDC_table_src1.dat
 vendor/etc/camera/LDC_table_src2.dat
 vendor/etc/camera/lf_facerank_model.bin
-vendor/etc/camera/mibokeh_712_parameter.bin
 vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 
 # Camera sensors
@@ -538,6 +540,7 @@ vendor/lib/hw/vulkan.adreno.so|bcfe9a8559d48d80cd29e3a55486a3b52ae1665d
 vendor/lib/libC2D2.so|267be7bd6768fa3b9bed2b9a42062cb5a77ca59b
 vendor/lib/libCB.so|618874e0bc8400bd5e2d960b8f988315ef21412a
 vendor/lib/libOpenCL.so|a3ae44b36d5f967acaee523152e32a9995adb04e
+vendor/lib/libOpenCL.so:lib/libOpenCL.so|a3ae44b36d5f967acaee523152e32a9995adb04e
 vendor/lib/libVkLayer_q3dtools.so|ee2f36503566d5a59d2bcfd696daeac5d0e41a78
 vendor/lib/libadreno_app_profiles.so|c1e66d74987660feba176509f0faccc9f193308d
 vendor/lib/libadreno_utils.so|476a1199e2e52828a342faea1d42caa0048eb92e
@@ -556,6 +559,7 @@ vendor/lib64/hw/vulkan.adreno.so|31b75ee903e7f4e34d222863444e420eac54f353
 vendor/lib64/libC2D2.so|6fb775e393ce7161b30e3a71fa0f320e86374425
 vendor/lib64/libCB.so|cd31f016cfd30d8504d30496023677e54304f63c
 vendor/lib64/libOpenCL.so|c97710459d67df24ae4c57aa3cf7fd53e6f5447e
+vendor/lib64/libOpenCL.so:lib64/libOpenCL.so|c97710459d67df24ae4c57aa3cf7fd53e6f5447e
 vendor/lib64/libVkLayer_q3dtools.so|a0d262b4a959b4ab7bcabc4858a14ac5db1cd033
 vendor/lib64/libadreno_app_profiles.so|a862e64ee97036c6754b806e4c7ea42df0115f8c
 vendor/lib64/libadreno_utils.so|b9c451dea962544c7ab5d4f87c18e8b84311b86e
