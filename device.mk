@@ -318,7 +318,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosp
 
 
 # Powerhint
@@ -387,9 +387,6 @@ PRODUCT_SOONG_NAMESPACES += \
 	vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
     vendor/qcom/opensource/commonsys/system/bt/conf
 
-# Smart Charge
-PRODUCT_PACKAGES += \
-    vendor.syberia.smartcharge@1.0-service
 
 # Telephony
 PRODUCT_PACKAGES += \

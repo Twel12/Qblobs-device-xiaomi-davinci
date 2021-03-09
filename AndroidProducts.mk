@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_davinci.mk
+    $(LOCAL_DIR)/aosp_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_davinci-user \
-    syberia_davinci-userdebug \
-    syberia_davinci-eng
+    aosp_davinci-user \
+    aosp_davinci-userdebug \
+    aosp_davinci-eng
