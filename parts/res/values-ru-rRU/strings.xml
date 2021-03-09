@@ -85,10 +85,4 @@
     <!-- DC dimming settings -->
     <string name="dc_dimming_enable_title">DC Dimming</string>
     <string name="dc_dimming_enable_summary">DC Dimming уменьшает нагрузку на глаза в условиях низкой освещенности</string>
-
-    <!-- Vibration -->
-    <string name="vibration_control_title">Настройка вибрации</string>
-    <string name="vibration_control_summary">Настройте силу вибрации</string>
-    <string name="vibration_reset">Установлено значение по-умолчанию</string>
-    <string name="vibration_control_description">Настройте силу вибрации для тактильной отдачи, входящего звонка и входящего уведомления</string>
 </resources>

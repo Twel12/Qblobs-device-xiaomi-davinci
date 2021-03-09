@@ -5,5 +5,3 @@ allow system_server init:process signal;
 allow system_server hal_light_default:process signal;
 allow system_server adb_data_file:dir { getattr read search };
 allow system_server adb_data_file:file { getattr open read };
-# OTA updater
-allow system_server sdcardfs:file rw_file_perms;

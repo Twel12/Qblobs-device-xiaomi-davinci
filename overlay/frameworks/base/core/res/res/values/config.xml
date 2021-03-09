@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+==<?xml version="1.0" encoding="utf-8"?>
 <!--
 /**
  * Copyright (c) 2019, The Android Open Source Project
@@ -682,9 +682,6 @@
 
     <!-- Shows the required view for in-display fingerprint -->
     <bool name="config_supportsInDisplayFingerprint">true</bool>
-
-    <!-- Enable the RingtonePickerActivity in 'com.android.providers.media'. -->
-    <bool name="config_defaultRingtonePickerEnabled">true</bool>
 
     <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
          when registering authenticators with BiometricService. Format must be ID:Modality:Strength,

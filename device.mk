@@ -24,9 +24,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 $(call inherit-product, vendor/xiaomi/davinci/davinci-vendor.mk)
 
 # ANXCamera
-$(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
-# Inherit from MiuiCamera    vendor
-#$(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
+# $(call inherit-product-if-exists, vendor/aeonax/ANXCamera/anx-vendor.mk)
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
@@ -470,7 +468,6 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     libwifi-hal-qcom \
     libwpa_client \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
@@ -513,10 +510,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # power HAL
 -include hardware/google/pixel/power-libperfmgr/aidl/device.mk
-
-# Updater
-PRODUCT_PACKAGES += \
-    Updater
-
-# FOD animations
-TARGET_WANTS_FOD_ANIMATIONS := true
